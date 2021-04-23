@@ -6,7 +6,7 @@ welcome = int(input(" "))
 if(welcome == 1):
   name = input("what is your name? \n")
   allowedusers = ('iyi','semi','mike')
-  allowedpassword = 'passwordiyi','passwordsemi','passwordseyi'
+  allowedpassword = 'passwordiyi','passwordsemi','passwordmike'
   if(name in allowedusers):
     password = input("your password? \n")
     userId  = allowedusers.index(name)
